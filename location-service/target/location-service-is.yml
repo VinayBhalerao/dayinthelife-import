@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    name: location-service
+  spec:
+    tags:
+    - from:
+        kind: ImageStreamImage
+        name: location-service@sha256:d094492e825e96de4fc7ec9e137dc9d98f2c74621af50c79bc52a316eda729fe
+        namespace: evals03-shared-d706
+      name: latest

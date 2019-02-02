@@ -1,0 +1,7 @@
+com/redhat/model/ContactInfo.class
+com/redhat/processor/LocationResultProcessor.class
+com/redhat/model/Location$LatLong.class
+com/redhat/processor/ContactInfoResultProcessor.class
+com/redhat/CamelRoutes.class
+com/redhat/Application.class
+com/redhat/model/Location.class
